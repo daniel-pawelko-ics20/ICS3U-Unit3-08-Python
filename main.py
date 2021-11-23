@@ -15,13 +15,13 @@ def main():
 
         # process/output
         if year % 400 == 0:
-            print(f"{year} is a Leap Year")
+            print(f"{year} is a leap year")
         elif year % 100 == 0:
-            print(f"{year} is not a Leap Year")
+            print(f"{year} is not a leap year")
         elif year % 4 == 0:
-            print(f"{year} is a Leap Year")
+            print(f"{year} is a leap year")
         else:
-            print(f"{year} is not a Leap Year")
+            print(f"{year} is not a leap year")
     except ValueError:
         print("Input has to be integer")
 
